@@ -1,0 +1,174 @@
+* {
+    background-color: rgb(29, 27, 27);
+}
+/*
+#center {
+    text-align: center;
+    color:white;
+    font-size: 50px;
+}
+*/ 
+#title-text {
+    text-align: center;
+    font-size: 50px;
+    /*color: red;*/
+}
+#title-text2 {
+    text-align: center;
+    font-size: 50px;
+    /*color: red;*/
+   padding-top: 50px;
+}
+
+/* CSS to place button and text on the same line with text centered horizontally */
+#title_part {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding-right: 160px;
+}
+
+#title_part button, #title_part h1 {
+    margin: 0; /* Reset margins to avoid unwanted spacing */
+    padding: 8px; /* Add padding to create some space around the button and text */
+   
+   
+}
+
+#title_part button {
+    /* You can add additional styling for the button if needed */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top:-15px;
+}
+
+#title_part h1 {
+    /* You can add additional styling for the text if needed */
+    margin-left: 10px; /* Add some space between the button and text */
+    flex: 1; /* Allow the text to take up the available space */
+    text-align: center; /* Center the text horizontally */
+}
+
+#title-text2 {
+    text-align: center;
+    font-size: 50px;
+    /*color: red;*/
+   padding-top: 50px;
+}
+
+@keyframes colorChange {
+    0% { color: green; }
+    25% { color: blue; }
+    50% { color: red; }
+    75% { color: purple; }
+    100% { color: orange; }
+  }
+
+.changing-text {
+    animation: colorChange 5s infinite; /* Adjust the duration as needed */
+} 
+
+
+@keyframes colorChange2 {
+    0% { color: lightgreen; }
+    25% { color: mediumspringgreen; }
+    50% { color: mediumseagreen }
+    75% { color: rgb(58, 151, 58); }
+    100% { color: rgb(4, 252, 4); }
+  }
+
+.changing-text2 {
+    animation: colorChange2 5s infinite; 
+}
+
+#message {
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.form-container {
+    /* Optional: You can customize the width and other styles of the form container here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#message {
+    /* background-color: rgb(78, 78, 78); */
+    border-radius: 8px;
+    font-size: 30px;
+    width: 800px;
+    height: 40px;
+    border-color: green;
+    border-style:ridge;
+    /* caret-color: green; */ 
+
+}
+
+
+#message::placeholder {
+    font-size: 20px; /* Adjust the font size to make it smaller */
+    /* You can also use other font properties like font-family, font-weight, etc., to further customize the placeholder text */
+}
+
+#image {
+    /* background-color: rgb(78, 78, 78); */
+    border-radius: 8px;
+    font-size: 30px;
+    width: 800px;
+    height: 40px;
+    border-color: green;
+    border-style:ridge;
+    /* caret-color: green; */ 
+
+} 
+
+.arrow-button {
+    font-size: 30px;
+    color: white;
+    border-top-right-radius:  20px;
+    border-bottom-right-radius:  20px;
+
+  
+    
+} 
+
+#nav-image {
+    color: white;
+}
+
+
+/* Your CSS styles */
+#chat-modal {
+    position: absolute;
+
+    display: block;
+    /* Add styles for the modal appearance */
+    background-color: white;
+    border-block-end-color: bisque;
+}
+
+#chat-container {
+    max-height: 500px; /* Set a maximum height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.chat-message {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+    padding: 10px; /* Add some padding to the message */
+    margin-bottom: 5px; /* Add some spacing between messages */
+    border-radius: 5px; /* Add rounded corners to the message box */
+}
+.clear {
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#img_generated {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
